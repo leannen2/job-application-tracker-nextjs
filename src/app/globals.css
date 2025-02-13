@@ -73,7 +73,7 @@ body {
 
 main,
 nav {
-  @apply max-w-6xl mx-auto my-12 sm:mx-4 md:mx-6 lg:mx-8;
+  @apply max-w-6xl my-12 mx-4 md:mx-8 xl:mx-auto;
 }
 p {
   @apply mt-2;

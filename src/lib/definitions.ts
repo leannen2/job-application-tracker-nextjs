@@ -2,8 +2,8 @@ export interface Job {
   id: number;
   company: string;
   role: string;
-  submittedAt: String | null;
-  oaDeadline: String | null;
-  link: string | null;
+  submittedAt: String | undefined;
+  oaDeadline: String | undefined;
+  link: string | undefined;
   stage: string;
 }
